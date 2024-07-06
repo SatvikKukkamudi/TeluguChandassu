@@ -7,3 +7,10 @@ This Python script classifies Telugu words based on specific phonological rules.
 - **Character Classification:** The script defines lists `U` and `L` for vowel modifiers and long vowels respectively, and a dictionary `N` that maps specific patterns to their corresponding classifications.
 - **Pattern Matching:** The script uses regular expressions to match and classify the input word based on its characters.
 - **Output:** The script prints the pattern and the classification of the input word.
+
+## Example
+
+```bash
+ఒక పదాన్ని నమోదు చేయండి : భగవంతుడు
+UUI
+భగవంతుడు అనే పదం తల గణము కు చెందినది
